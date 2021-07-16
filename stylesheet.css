@@ -1,0 +1,890 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(242, 242, 242);
+}
+
+.bigscreen {
+    display: none;
+}
+
+.entete {
+    text-align: center;
+    margin-bottom: 0%;
+    background-color: rgba(135, 158, 15, 0.3);
+    padding: 4%;
+    color: white;
+}
+
+.panier {
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    border: 1px solid rgb(135, 158, 15);
+    padding: 7px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 2px 2px 2px rgb(135, 158, 15);
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 600;
+}
+
+.panier i {
+    border: 1px solid rgb(242, 242, 242);
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.panier a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header>img {
+    display: block;
+    margin: auto;
+    margin-top: 25%;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+nav>a {
+    margin: 4% 0%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+main {
+    text-align: center;
+    background-color: white;
+    margin-top: 5%;
+}
+
+figure {
+    margin: 0;
+    width: 50%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    color: rgb(106, 102, 103);
+}
+
+.choixthe {
+    padding: 5% 0%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+}
+
+.Notre p {
+    margin: 5% 9%;
+    color: rgb(106, 102, 103);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.tetedupied {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    padding: 5%;
+}
+
+section>a {
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+.corpsdupied {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pied {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(150, 176, 17, 0.5);
+    background-image: url(./img/bg.jpg);
+    background-position: center;
+}
+
+button {
+    padding: 5% 10%;
+    background-color: rgb(176, 144, 103);
+    border: none;
+    color: white;
+    margin: 5% 0%;
+    font-family: 'Open Sans', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.tetedupied {
+    background-color: rgb(135, 158, 15);
+}
+
+footer {
+    margin-top: 10%;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 2% 0%;
+    color: rgb(206, 215, 162)
+}
+
+h1 {
+    color: rgb(135, 158, 15);
+    font-size: 1.7rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding-right: 15px;
+}
+
+h2 {
+    color: rgb(106, 102, 103);
+    font-size: 1.2rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+h3 {
+    color: white;
+    margin-top: 10%;
+    font-size: 1.1rem;
+}
+
+strong {
+    font-size: 2rem;
+    color: rgb(106, 102, 103);
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 3px;
+}
+
+fieldset {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: 1px solid;
+    text-align: center;
+    margin: 0% 10%;
+    border-color: rgb(135, 158, 15);
+}
+
+.tetedupied a {
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    color: rgb(206, 215, 162)
+}
+
+.choixthetitre {
+    background-color: white;
+}
+
+.principale {
+    text-align: left;
+    margin: 20px;
+}
+
+.principale h1 {
+    color: rgb(106, 102, 103);
+    margin-top: -20px;
+    padding-top: 15%;
+    font-size: 2.5rem;
+}
+
+.principale h2 {
+    color: rgb(150, 176, 17);
+    margin-left: 20px;
+    max-width: 100%;
+    font-size: 1.5rem;
+}
+
+.principale img {
+    width: 100%;
+}
+
+.principale p {
+    font-size: 1.1rem;
+    color: rgb(106, 102, 103);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fin>div>h3 {
+    color: rgb(106, 102, 103);
+}
+
+.fin {
+    background-color: rgb(242, 242, 242);
+    margin: 10%;
+    padding: 10%;
+}
+
+.fin p {
+    font-size: 1.1rem;
+    color: rgb(106, 102, 103);
+    font-family: 'Open Sans', sans-serif;
+}
+
+select {
+    width: 90%;
+    padding: 2% 0%;
+    background-color: rgb(242, 242, 242);
+    margin-bottom: 5%;
+}
+
+#ajouter {
+    margin-top: 15%;
+    width: 90%;
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.thestitre img {
+    display: none;
+}
+
+.thestitre>fieldset {
+    padding: 0%;
+}
+
+.thestitre>h1 {
+    padding: 0%;
+    margin-bottom: 0px;
+}
+
+.thestitre>p {
+    text-align: left;
+    margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.thecarte img {
+    width: 80%;
+}
+
+.the p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.listingmain {
+    padding: 0px 30px;
+}
+
+.sticker {
+    display: none;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        margin: 0;
+    }
+    main {
+        padding: 3%;
+    }
+    .entete {
+        padding: 5px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+    .bigscreen {
+        display: block;
+        font-family: PT sans Narrow;
+    }
+    nav {
+        margin-top: 0px;
+    }
+    nav a {
+        margin: 0% 4% 4% 4%;
+        text-align: center;
+    }
+    header {
+        background-position: bottom;
+    }
+    header>img {
+        display: inline;
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .panier {
+        position: relative;
+        display: inline;
+        float: right;
+        border: none;
+        box-shadow: none;
+        margin-top: 8%;
+        margin-right: -6%;
+    }
+    button {
+        padding: 3% 5%;
+    }
+    .tetedupied {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .pied {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .slideshow-container {
+        max-width: 991px;
+        position: relative;
+        margin: auto;
+    }
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 3s;
+        animation-name: fade;
+        animation-duration: 3s;
+    }
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    .principale>h1 {
+        padding-top: 5%;
+    }
+    .amelie {
+        max-width: 50%;
+        float: left;
+        margin: 2%;
+    }
+    .xavier {
+        max-width: 50%;
+        float: right;
+        margin: 2%;
+    }
+    .fin {
+        margin: 5% 5%;
+        padding: 5%;
+    }
+    .etoiles {
+        float: left;
+        text-align: left;
+    }
+    .note {
+        float: right;
+        text-align: right;
+        margin-top: 3%;
+    }
+    .produit {
+        clear: both;
+        display: flex;
+        justify-content: space-between;
+    }
+    .mainproduct {
+        margin: 0%;
+        padding-top: 5%;
+        background-color: white;
+    }
+    #ajouter {
+        width: 300px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2rem;
+    }
+    .new {
+        border: 2px solid black;
+        width: 50px;
+        height: 1px;
+        background-color: black;
+    }
+    .thecarte img {
+        width: 60%;
+    }
+    .sticker {
+        display: block;
+        width: 15%;
+        height: 15%;
+        position: relative;
+        float: right;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .choixthe {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .choixthetitre {
+        background-color: white;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    header {
+        margin: 0px;
+    }
+    .entete {
+        padding: 5px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .mainabout {
+        margin: 0 auto;
+        margin-top: 4%;
+        padding-bottom: 2%;
+        max-width: 800px;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 2% 10%;
+    }
+    .navproduct {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .bigscreen {
+        display: block;
+        font-family: PT sans Narrow;
+    }
+    header>img {
+        display: inline;
+        margin-left: 12%;
+        margin-top: 2%;
+        margin-bottom: 0%;
+    }
+    .bigscreen {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+    .mainintro {
+        margin: 0 auto;
+        max-width: 800px;
+        margin-top: 5%;
+    }
+    fieldset {
+        margin: 0px 15px;
+    }
+    .mainintro img {
+        width: 50%;
+    }
+    .Notre {
+        display: flex;
+    }
+    .panier {
+        position: relative;
+        display: inline;
+        float: right;
+        border: none;
+        box-shadow: none;
+        margin-top: 40px;
+        margin-right: 70px;
+        margin-bottom: 0px;
+    }
+    button {
+        padding: 7% 5%;
+    }
+    .tetedupied {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .pied {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .slideshow-container {
+        max-width: 991px;
+        position: relative;
+        margin: auto;
+    }
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 3s;
+        animation-name: fade;
+        animation-duration: 3s;
+    }
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    .principale>h1 {
+        padding-top: 5%;
+    }
+    .amelie {
+        max-width: 50%;
+        float: left;
+        margin: 2%;
+    }
+    .xavier {
+        max-width: 50%;
+        float: right;
+        margin: 2%;
+    }
+    .fin {
+        margin: 5% 5%;
+        padding: 5%;
+        display: flex;
+        background-color: rgba(150, 176, 17, 0.4);
+    }
+    .principale>h1 {
+        padding-top: 5%;
+    }
+    .amelie {
+        max-width: 50%;
+        float: left;
+        margin: 2%;
+    }
+    .xavier {
+        max-width: 50%;
+        float: right;
+        margin: 2%;
+    }
+    .fin {
+        margin: 5% 5%;
+        padding: 5%;
+    }
+    .etoiles {
+        float: left;
+        text-align: left;
+    }
+    .note {
+        float: right;
+        text-align: right;
+        margin-top: 3%;
+    }
+    .produit {
+        clear: both;
+        display: flex;
+        justify-content: space-between;
+    }
+    .mainproduct {
+        padding: 3%;
+        max-width: 780px;
+        margin: 0 auto;
+    }
+    #ajouter {
+        width: 300px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2rem;
+    }
+    footer {
+        margin-top: 5%;
+    }
+    .listingmain {
+        margin: 0% 13%;
+        background-color: rgb(242, 242, 242);
+        max-width: 1100px;
+    }
+    .thestitre>img {
+        display: block;
+        float: left;
+    }
+    .thecarte img {
+        width: 200px;
+        height: 200px;
+    }
+    .card {
+        background-color: white;
+        padding: 5%;
+        margin-bottom: 3%;
+    }
+    .thestitre fieldset {
+        padding: 0px 10px;
+    }
+    .thecarte {
+        clear: left;
+        display: flex;
+        justify-content: space-around;
+    }
+    .headerlisting {
+        margin: 0%;
+    }
+    .the strong {
+        font-size: 1.5rem;
+    }
+    .sticker {
+        display: block;
+        width: 8%;
+        height: 8%;
+        position: relative;
+        float: right;
+    }
+}
+
+
+/* Desktops and laptops *********************************************************************BONUSBONUSBONUSBONUS******************************************************************** 
+    *********************************************************************BONUSBONUSBONUSBONUS******************************************************************** ********************
+    ***************************************************************************************************************************************** 
+    ***************************************************************************************************************************************** 
+    ***************************************************************************************************************************************** 
+    **************************************************************************************************************************************** 
+    ***************************************************************************************************************************************** 
+    ***************************************************************************************************************************************** */
+
+@media screen and (min-width: 1224px) {
+    .listingmain {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    .sticker {
+        display: block;
+        width: 8%;
+        height: 8%;
+        position: relative;
+        float: right;
+    }
+    nav {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    .choixthe {
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: 1000px;
+        justify-content: space-between;
+    }
+    .choixthetitre {
+        background-color: white;
+    }
+    header {
+        margin: 0px;
+    }
+    .entete {
+        padding: 5px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* margin: 0% 15%; */
+    }
+    .navproduct {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .bigscreen {
+        display: block;
+        font-family: PT sans Narrow;
+    }
+    header>img {
+        display: inline;
+        margin-left: 17%;
+        margin-top: 2%;
+        margin-bottom: 0%;
+    }
+    .Notre {
+        display: flex;
+    }
+    .panier {
+        position: relative;
+        display: inline;
+        float: right;
+        border: none;
+        box-shadow: none;
+        margin-top: 40px;
+        margin-right: 18%;
+        margin-bottom: 0px;
+    }
+    button {
+        padding: 3% 5%;
+    }
+    .tetedupied {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .pied {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .slideshow-container {
+        max-width: 991px;
+        position: relative;
+        margin: auto;
+    }
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 3s;
+        animation-name: fade;
+        animation-duration: 3s;
+    }
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+        to {
+            opacity: 1
+        }
+    }
+    .principale>h1 {
+        padding-top: 5%;
+    }
+    .amelie {
+        max-width: 50%;
+        float: left;
+        margin: 2%;
+    }
+    .xavier {
+        max-width: 50%;
+        float: right;
+        margin: 2%;
+    }
+    .fin {
+        margin: 5% 5%;
+        padding: 5%;
+        display: flex;
+        background-color: rgba(150, 176, 17, 0.4);
+    }
+    .principale>h1 {
+        padding-top: 5%;
+    }
+    .amelie {
+        max-width: 50%;
+        float: left;
+        margin: 2%;
+    }
+    .xavier {
+        max-width: 50%;
+        float: right;
+        margin: 2%;
+    }
+    .fin {
+        margin: 5% 5%;
+        padding: 5%;
+    }
+    .etoiles {
+        float: left;
+        text-align: left;
+    }
+    .note {
+        float: right;
+        text-align: right;
+        margin-top: 3%;
+    }
+    .produit {
+        clear: both;
+        display: flex;
+        justify-content: space-between;
+    }
+    .mainproduct {
+        padding: 3%;
+        margin-right: 200px;
+        margin-left: 200px;
+        margin-top: 0px;
+    }
+    #ajouter {
+        width: 300px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2rem;
+    }
+    footer {
+        margin-top: 5%;
+    }
+    #ajouter {
+        width: 300px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2rem;
+    }
+    .listingmain {
+        margin: 0% 10%;
+        padding: 1% 0%;
+        background-color: rgb(242, 242, 242);
+    }
+    .thestitre>img {
+        display: block;
+        float: left;
+    }
+    .thecarte img {
+        width: 200px;
+        height: 200px;
+    }
+    .card {
+        background-color: white;
+        padding: 5%;
+        margin-bottom: 3%;
+    }
+    .thestitre fieldset {
+        padding: 0px 10px;
+    }
+    .thecarte {
+        clear: left;
+        display: flex;
+        justify-content: space-around;
+    }
+    .headerlisting {
+        margin: 0%;
+    }
+    .the strong {
+        font-size: 1.5rem;
+    }
+}
